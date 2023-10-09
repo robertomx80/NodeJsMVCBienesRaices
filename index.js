@@ -11,7 +11,7 @@ app.use('/',usuarioRoutes);
 const port = 3000
 
 app.listen(port, ()=>{
-    console.log('El servidor está escuchando en el puerto 3001')
+    console.log('El servidor está escuchando en el puerto 3000')
 });
 
 
