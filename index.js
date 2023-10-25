@@ -11,6 +11,9 @@ app.set('view engine','pug')
 app.set('views','./views')
 
 
+//Carpeta publica
+app.use(express.static('public'))
+
 app.use('/auth',usuarioRoutes);
 
 //Definir puerto e iniciar el servidor
